@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+		{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+		{{ .Hugo.Generator }}
+		<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+		{{ range .Site.Params.customCSS }}
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+		{{ end }}
+
+		{{ if .Site.Params.enableRSS }}
+		<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+		{{ end }}
+
+		{{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/google_news.html" . }}
+    {{ template "_internal/schema.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+
+    {{ if and (not .Params.disable_highlight) (in (string .Content) "</pre>") }}
+    {{ $highTheme := .Site.Params.highlightjsTheme }}
+    {{ with .Site.Params.highlightjsVersion }}
+    <link href='{{ $.Site.Params.highlightjsCDN }}/highlight.js/{{ . }}/styles/{{ $highTheme }}.min.css' rel='stylesheet' type='text/css'>
+    {{ end }}
+    {{ end }}
+    <script async src="https://use.fontawesome.com/32c3d13def.js"></script>
+
+	</head>

@@ -1,0 +1,58 @@
+# Site settings
+baseurl = "https://support.rbind.io"
+languageCode = "en-us"
+title = "Rbind Support"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-1988641-3"
+# Disable comments by leaving disqusShortname empty
+disqusShortname = ""
+paginate = 10
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+	name = "Rbind Support"
+	description = "Technical support and service announcements of rbind.io"
+	bio = "Technical support - News - Announcements"
+	# Enter optionally your twitter account
+	twitter = "rbindio"
+	enableRSS = true
+
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	subscribe = "RSS"
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "Technical support and news about rbind.io"
+	tweet = ""
+	share = "Facebook"
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+  # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion = "9.11.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "tex"]
+  highlightjsTheme = "github"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://twitter.com/rbindio"
+    github   = "https://github.com/rbind"

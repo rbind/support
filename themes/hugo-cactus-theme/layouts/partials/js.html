@@ -1,0 +1,16 @@
+{{ range .Site.Params.customJS }}
+<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+{{ end }}
+
+{{ template "_internal/google_analytics.html" . }}
+
+{{ if and (not .Params.disable_highlight) (in (string .Content) "</pre>") }}
+{{ $highVer := .Site.Params.highlightjsVersion }}
+{{ $highCDN := .Site.Params.highlightjsCDN }}
+{{ if (not (eq $highVer "")) }}
+<script src="{{ $highCDN }}/highlight.js/{{ $highVer }}/highlight.min.js"></script>
+{{ range .Site.Params.highlightjsLang }}
+<script src="{{ $highCDN }}/highlight.js/{{ $highVer }}/languages/{{ . }}.min.js"></script>{{ end }}
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+{{ end }}
+{{ end }}
