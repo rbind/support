@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://support.rbind.io"
+baseurl = "https://support.rbind.io/"
 languageCode = "en-us"
 title = "Rbind Support"
 theme = "hugo-cactus-theme"
