@@ -45,6 +45,7 @@ footnotereturnlinkcontents = "↩"
 	# 404 page
 	title404 = ""
 	subtitle404 = ""
+	githubRepo = "https://github.com/rbind/support"
 
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion = "9.11.0"
