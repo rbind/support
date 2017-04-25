@@ -2,7 +2,7 @@
 title: A Technical Introduction to Yihui's personal website
 author: Yihui Xie
 date: '2017-04-25'
-slug: a-technical-introduction-to-yihui-s-website
+slug: yihui-website
 description: Some of Yihui's hacks based on the hugo-lithium-theme.
 ---
 
