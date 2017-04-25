@@ -642,6 +642,11 @@ a.symbol:hover {
 
 code {
 	font-family:Menlo, Monaco, Courier;
-	background-color:rgba(0,0,0,.03); font-size:90%;
-	padding: 4px;
+	font-size:90%;
+}
+
+code, .headline a {
+  background-color: rgba(0,0,0,.02);
+  padding: 4px;
+  border-radius: 4px;
 }

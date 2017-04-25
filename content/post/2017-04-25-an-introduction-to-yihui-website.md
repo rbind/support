@@ -2,6 +2,15 @@
 title: A Technical Introduction to Yihui's personal website
 author: Yihui Xie
 date: '2017-04-25'
+tags:
+  - Hugo
+  - theme
+  - Disqus
+  - Github
+  - Netlify
+  - blogdown
+  - multilingual
+  - knitr
 slug: yihui-website
 description: Some of Yihui's hacks based on the hugo-lithium-theme.
 ---

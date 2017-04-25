@@ -2,6 +2,8 @@
 title: Launching the Rbind support website
 author: Yihui Xie
 date: '2017-04-24'
+tags:
+  - announcement
 slug: launching-rbind-support
 description: One organization to bind them (websites) all.
 ---
