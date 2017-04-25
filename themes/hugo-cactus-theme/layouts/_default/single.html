@@ -7,7 +7,7 @@
                 <header>
                     <h1>{{ .Title }}</h1>
                     <h2 class="headline">
-                    {{ .Date.Format "2006/01/02" }}
+                    {{ with .Params.Author }} {{.}} &middot; {{ end }} {{ .Date.Format "2006/01/02" }}
                     <br>
                     {{ with .Params.tags }}
                     {{ if ge (len .) 1 }}
