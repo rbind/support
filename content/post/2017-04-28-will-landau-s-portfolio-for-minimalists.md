@@ -1,5 +1,5 @@
 ---
-title: Will Landau's portfolio: a website for minimalists
+title: "Will Landau's portfolio: a website for minimalists"
 author: Will Landau
 date: 2017-04-28
 slug: landau-website
