@@ -8,15 +8,16 @@
                     <h1>{{ .Title }}</h1>
                     <h2 class="headline">
                     {{ with .Params.Author }} {{.}} &middot; {{ end }} {{ .Date.Format "2006/01/02" }}
-                    <br>
+                    </h2>
                     {{ with .Params.tags }}
                     {{ if ge (len .) 1 }}
+                    <h2 class="headline">
                         {{ range . }}
                             <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
                         {{ end }}
+                    </h2>
                     {{ end }}
                     {{ end}}
-                    </h2>
                 </header>
                 <section id="post-body">
                     {{ .Content }}
