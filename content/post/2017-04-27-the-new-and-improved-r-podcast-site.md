@@ -2,6 +2,14 @@
 title: The New and Improved R-Podcast Site
 author: Eric Nantz
 date: '2017-04-27'
+tags:
+  - Hugo
+  - blogdown
+  - podcast
+  - theme
+  - knitr
+  - rstudio
+  - rmarkdown
 slug: r-podcast-website
 description: How Hugo and blogdown supercharged the online presence of the R-Podcast
 ---
