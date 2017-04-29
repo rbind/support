@@ -64,32 +64,36 @@ Let's look at them individually.
 - `content` folder: this the folder to put your webpages and blog posts. For example, I have `_index.md`, `about.md`, `resume.md`, `research.md`, and three subfolders that will be turned into three blogs. If you open my [website](https://daijiang.name), it will be clear what roles these files/folders have. You can order them in the `config.yaml` file with the `weight` option^[start with 1 instead of 0.].
 - `index.Rmd`: you do not need to change it.
 - `layouts` folder: this folder has files that will control the details of the website.
-```
-layouts
-├── _default
-│   ├── list.html
-│   └── single.html
-└── partials
-│   ├── article_meta.html
-│   ├── disqus.html
-│   ├── fix404.html
-│   ├── footer.html
-│   ├── head_custom.html
-│   ├── nav.html
-│   └── prev_next.html
-```
+
+    ```
+    layouts
+    ├── _default
+    │   ├── list.html
+    │   └── single.html
+    └── partials
+    │   ├── article_meta.html
+    │   ├── disqus.html
+    │   ├── fix404.html
+    │   ├── footer.html
+    │   ├── head_custom.html
+    │   ├── nav.html
+    │   └── prev_next.html
+    ```
+
 For example, I changed `partials/footer.html` file to include an email icon <i class="fa fa-envelope"></i> in the footer of web pages. I also included information of the last change of the website in the footer. Change according to your need. The `partials/article_meta.html` will show the icons at the top right of each blog post. If you have multiple blogs, make sure to change some of the line 7 in this file (I have 3 blogs here). The `_default/single.html` assemble parts that defined in the `partial` folder together for each single page. Here, also remember to change things if you have multiple blogs.
 - `static` folder: holds customer defined css files and other things such as your avatar. Replace `images/logo.png` file with your favorite icon. I also created a `pdf` folder to host some of my papers. The `CNAME` file may not be necessary if you host your website through Netlify.
     + `css/custom.css`: change this file if you want teak things defined in the theme.
 - `themes` folder: to hold themes. If you use regular `git clone` to clone my website, you will find it is empty. You can add the theme I use back with 
-```
-git submodule add git@github.com:yihui/hugo-lithium-theme.git themes/hugo-lithium-theme
-```
+
+    ```
+    git submodule add git@github.com:yihui/hugo-lithium-theme.git themes/hugo-lithium-theme
+    ```
+
 - `website.Rproj`: I use [RStudio](https://www.rstudio.com/products/rstudio/#Desktop) to write my posts^[including this one.]. If you have installed `blogdown` package, in RStudio, you can use the `Addins -- New Post` to create a new post. In this way, you do not need to type the structure of the yaml header.
-![Imgur](http://i.imgur.com/IFFbb3W.png)
+![Imgur](https://cloud.githubusercontent.com/assets/1696911/25552789/89b7b902-2c70-11e7-8235-8e9f1abe409f.png)
 
 That's it. Hopefully now you can clone the websites that you like [rbind.io](https://github.com/rbind) and start to create your own website^[If you want to start it from scratch, this post is not for you. 😀😬😁]. After done, you can click the `Addins -- Serve Site` in RStudio (also shown in the above picture) and see how it looks. 
 
 Now, it is time to make your website public. I recommend to use [Netlify](www.netlify.com). Its free plan allows you to deploy your github repository there with your own domain. Whenever I change the source code of my website on github, netlify will automatically rebuild my website for you! How cool it that? To host your website with github pages, see [here](https://daijiang.name/en/2017/03/30/updating-website-with-hugo-and-blogdown/#publish-your-website).
 
-Enjoy it!
+Happy blogging!
