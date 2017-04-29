@@ -14,7 +14,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .post h1, h3, h4, h5, p, #post-body ul, #post-body ol, #post-list li, pre {
 margin-bottom: 20px;
 }
-
+#post-body ul ul, #post-body ul ol, #post-body ol ul, #post-body ol ol, #post-body li p { margin-bottom: auto; }
 /* Base */
 html, body { height: 100%; }
 
@@ -149,8 +149,8 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
-li	{ list-style-position:inside; padding: .5em; line-height: 1.5em;}
+ul, ol { margin-left: 2em; }
+li	{ padding: .5em; line-height: 1.5em;}
 .footnotes { font-size: .9em; }
 
 /* Line Height */
@@ -253,7 +253,6 @@ hr {
 
 pre	{
 	font-family:Menlo, Monaco, Courier;
-	padding:20px;
 	overflow:auto;
 	border-radius: 3px;
 }
