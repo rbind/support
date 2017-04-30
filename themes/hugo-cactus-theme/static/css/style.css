@@ -152,6 +152,7 @@ a,
 ul, ol { margin-left: 2em; }
 li	{ padding: .5em; line-height: 1.5em;}
 .footnotes { font-size: .9em; }
+.footnotes hr { width: 40%; margin: 40px auto 20px 0;}
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
