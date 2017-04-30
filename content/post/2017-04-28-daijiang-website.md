@@ -15,7 +15,7 @@ description: The setup of Daijiang's website.
 
 I am an ecologist and statistician, working as a postdoc currently. For me, what I need is a website that I can introduce myself to the public, archive some of my experiences, and communicate my thoughts with others. So I do not need fancy stuff. Static website fits this bill perfectly. I need a tool that can deal with most of the website constructing and I can focus on the content. Recently, I have moved [my personal website](https://github.com/rbind/daijiang) from `Jekyll` to `Hugo` and I loved it. `Hugo` is already very easy to use. Yihui's awesome R package [blogdown](https://github.com/rstudio/blogdown) makes it even easier. Therefore, if you are a R user, I recommend to work with the `blogdown` package.
 
-Here, I briefly explain the structure of my website. Since I have very similar set up with [Yihui's website](https://yihui.name) and I used his [modified hugo-lithium-theme](https://github.com/yihui/hugo-lithium-theme)^[frankly, I cloned his website and then tweaked based on it, which I think is the easist way to get started. If you also want clone his or my website, I suggest to use `git clone --recursive url-of-github-repo`, which will also clone the theme for you.], I strongly recommend to read his [website set up](/2017/04/25/yihui-website/).
+Here, I briefly explain the structure of my website. Since I have very similar set up with [Yihui's website](https://yihui.name) and I used his [modified hugo-lithium-theme](https://github.com/yihui/hugo-lithium-theme)^[frankly, I cloned his website and then tweaked based on it, which I think is the easist way to get started. If you also want clone his or my website, I suggest to use `git clone --recursive url-of-github-repo`, which will also clone the theme for you.], I strongly recommend to read his [website set up](https://support.rbind.io/2017/04/25/yihui-website/).
 
 Here is the tree structure of my website source code:
 
@@ -97,6 +97,6 @@ If you have installed `blogdown` package, in RStudio, you can use the `Addins --
 
 That's it. Hopefully now you can clone the websites that you like (e.g. from [rbind.io](https://github.com/rbind)) and start to create your own website^[If you want to start it from scratch, this post is not for you. 😀😬😁]. After done, you can click the `Addins -- Serve Site` in RStudio (also shown in the above picture) and see how it looks. 
 
-Now, it is time to make your website public. I recommend to use [Netlify](www.netlify.com). Its free plan allows you to deploy your github repository there with your own domain. Whenever you change the source code of the website on github, netlify will automatically rebuild it for you! How cool is that? To host your website with github pages, see [here](https://daijiang.name/en/2017/03/30/updating-website-with-hugo-and-blogdown/#publish-your-website).
+Now, it is time to make your website public. I recommend to use [Netlify](https://www.netlify.com). Its free plan allows you to deploy your github repository there with your own domain. Whenever you change the source code of the website on github, netlify will automatically rebuild it for you! How cool is that? To host your website with github pages, see [here](https://daijiang.name/en/2017/03/30/updating-website-with-hugo-and-blogdown/#publish-your-website).
 
 Happy blogging!
