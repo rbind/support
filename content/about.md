@@ -18,6 +18,6 @@ If you do not have a website yet, please file a [Github issue](https://github.co
 
 This support website is primarily for two types of announcements: technical changes or news or solutions related to Rbind and **blogdown**, and announcements of new websites landed at Rbind. The first type is authored by the support team, and the second type is authored by website owners sharing their experience and introducing their own websites.
 
-This website is hosted on Github ([rbind/support](https://github.com/rbind/support)). Please feel free to fork the repo, create new posts using **blogdown**, and send us Github pull requests.
+This website is hosted on Github ([rbind/support](https://github.com/rbind/support)). Please feel free to fork the repo, create new posts using **blogdown**, and send us Github pull requests to introduce or promote your website and share your experience with building websites. Please include links to your website and the source repository in your post.
 
 It is not a place for you to ask technical questions related to **blogdown**. All such questions should be posted to StackOverflow instead with tags `r` and [`blogdown`](http://stackoverflow.com/tags/blogdown).
