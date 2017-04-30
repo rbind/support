@@ -97,6 +97,6 @@ If you have installed `blogdown` package, in RStudio, you can use the `Addins --
 
 That's it. Hopefully now you can clone the websites that you like (e.g. from [rbind.io](https://github.com/rbind)) and start to create your own website^[If you want to start it from scratch, this post is not for you. 😀😬😁]. After done, you can click the `Addins -- Serve Site` in RStudio (also shown in the above picture) and see how it looks. 
 
-Now, it is time to make your website public. I recommend to use [Netlify](www.netlify.com). Its free plan allows you to deploy your github repository there with your own domain. Whenever you change the source code of the website on github, netlify will automatically rebuild it for you! How cool is that? To host your website with github pages, see [here](https://daijiang.name/en/2017/03/30/updating-website-with-hugo-and-blogdown/#publish-your-website).
+Now, it is time to make your website public. I recommend to use [Netlify](https://www.netlify.com). Its free plan allows you to deploy your github repository there with your own domain. Whenever you change the source code of the website on github, netlify will automatically rebuild it for you! How cool is that? To host your website with github pages, see [here](https://daijiang.name/en/2017/03/30/updating-website-with-hugo-and-blogdown/#publish-your-website).
 
 Happy blogging!
