@@ -1,9 +1,8 @@
 ---
 title: An introduction of Liechi's site
-author: liechi Zhang
+author: Liechi Zhang
 date: '2017-04-29'
-slug: Liechi-site
-categories: []
+slug: liechi-site
 tags:
   - blogdown
   - Hugo
