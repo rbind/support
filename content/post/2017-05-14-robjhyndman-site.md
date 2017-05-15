@@ -1,6 +1,13 @@
 ---
 date: 2017-05-15
+author: Rob J Hyndman
 title: Converting robjhyndman to blogdown
+tags: 
+ - Hugo
+ - theme
+ - Wordpress
+ - blogdown
+description: How Rob converted his website from Wordpress to Blogdown
 ---
 
 ## Some history
@@ -9,7 +16,7 @@ I started my website in 1993, only a few months after [the WWW was put into the 
 
 In 2006 I was convinced that using a content management system would make my life easier, and I converted the site to Joomla. A couple of years later, Wordpress seemed to have more features, so I converted from Joomla to Wordpress where it stayed for about 9 years. Here is an image of what it looked like in 2009 just after converting to Wordpress.
 
-![robjhyndman.com in 2009 on Wordpress](/images/rjh2009.png)
+![robjhyndman.com in 2009 on Wordpress](https://cloud.githubusercontent.com/assets/163582/26041812/8ba5a59e-38f5-11e7-9698-9696d5c08539.png)
 
 During that time, the site grew into ten Wordpress installations connected together in a rather ad hoc manner to form a Wordpress network comprising about 1000 separate pages and posts.
 
