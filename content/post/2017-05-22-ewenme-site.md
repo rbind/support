@@ -25,7 +25,7 @@ My website [ewenme](http://ewenme.rbind.io/) (pronounced you-n-me) is now live, 
 
 ## The theme
 
-It was built using the [hugo-creative-portfolio-theme](https://github.com/kishaningithub/hugo-creative-portfolio-theme) by [Kishan B](https://github.com/kishaningithub), powered by Blogdown, and has a few things over there just now. The theme itself is probably intended for use by designer types, but I quite liked the idea of subverting this portfolio style for the purposes of an analytics blog. This is also a good moment to thank Amber (thanks, Amber!) for [this sick guide](https://proquestionasker.github.io/blog/Making_Site/) that helped keep me mostly calm throughout this process.
+It was built using the [hugo-creative-portfolio-theme](https://github.com/kishaningithub/hugo-creative-portfolio-theme) by [Kishan B](https://github.com/kishaningithub), powered by Blogdown, and has a few things over there just now. The theme itself is probably intended for use by designer types, but I quite liked the idea of subverting this portfolio style for the purposes of an analytics blog. This is also a good moment to thank Amber (thanks, Amber!) for [this slick guide](https://proquestionasker.github.io/blog/Making_Site/) that helped keep me mostly calm throughout this process.
 
 ## What now?
 
