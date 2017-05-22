@@ -12,11 +12,25 @@ To make it easier to discover websites and get inspirations from other people's 
 
 We do not really have hard restrictions on what kind of websites we expect to see in Rbind, but we will certainly be happy to host websites related to R and/or statistics.
 
-If you do not have a website yet, please file a [Github issue](https://github.com/rbind/support/issues) and we can help you create one in the Rbind organization using **blogdown**,^[We need you to tell us which [Hugo theme](http://themes.gohugo.io) you want to use.] otherwise you can [transfer](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/) your existing Github repo to Rbind.^[Please note that we will send you an invitation to join Rbind as a member, and you have to accept the invitation (_check your email_) before you can transfer your repo.] In either case, if you do not own a domain name, we can offer a subdomain `*.rbind.io` to you for free, and just let us know in your Github issue.^[If you know how a domain name works, please let us know the DNS record we should set for your `*.rbind.io`, otherwise we recommend you to connect your Github repo with [Netlify](https://www.netlify.com), and we can point the CNAME record of our subdomain to your Netlify subdomain. Feel confused? No problem! We can actually do everything for you, if you do not mind that we also have admin access to your repo. We promise we will only set up the subdomain name for you and never touch the content of your website, unless you have explicitly asked us for help!]
+- If you do not have a website yet, please file a [Github issue](https://github.com/rbind/support/issues) and we can help you create one in the Rbind organization using **blogdown**.
+
+    - We need you to tell us which [Hugo theme](http://themes.gohugo.io) you want to use, unless you are satisfied with the default theme in **blogdown**.
+
+- If you have a website with its source hosted on Github, you can [transfer](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/) the repo to Rbind.
+
+    - Please note that we will send you an invitation to join Rbind as a member, and you have to accept the invitation (_check your email_) before you can transfer your repo.
+    
+In either case, if you do not own a domain name, we can offer a subdomain `*.rbind.io` to you for free as long as it is still available, and just let us know your desired subdomain name in your Github issue.
+
+- If you know how a domain name works, please let us know the DNS record we should set for your `*.rbind.io`, otherwise we recommend you to connect your Github repo with [Netlify](https://www.netlify.com), and we can point the CNAME record of our subdomain to your Netlify subdomain.
+
+- Feel confused? No worries! Just tell us the subdomain you want, and we can actually do everything for you, if you do not mind that we also have admin access to your repo. We promise we will only set up the subdomain name for you and never touch the content of your website, unless you have explicitly asked us for help!
+
+If you have received help from the Rbind community, please consider giving back in the future by helping newcomers after you know more about websites and become familiar with **blogdown**.
 
 ## What is this website for and not for
 
-This support website is primarily for two types of announcements: technical changes or news or solutions related to Rbind and **blogdown**, and announcements of new websites landed at Rbind. The first type is authored by the support team, and the second type is authored by website owners sharing their experience and introducing their own websites.
+This support website, [support.rbind.io](https://support.rbind.io), is primarily for two types of announcements: technical changes or news or solutions related to Rbind and **blogdown**, and announcements of new websites landed at Rbind. The first type is authored by the support team, and the second type is authored by website owners sharing their experience and introducing their own websites.
 
 This website is hosted on Github ([rbind/support](https://github.com/rbind/support)). Please feel free to fork the repo, create new posts using **blogdown**, and send us Github pull requests to introduce or promote your website and share your experience with building websites. Please include links to your website and the source repository in your post.
 

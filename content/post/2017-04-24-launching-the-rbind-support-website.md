@@ -1,6 +1,6 @@
 ---
 title: Launching the Rbind support website
-author: Yihui Xie
+author: The Rbind Team
 date: '2017-04-24'
 tags:
   - announcement
@@ -19,4 +19,4 @@ If you do not agree with them, Rbind is probably not for you, otherwise welcome 
 
 ![one after another cat](https://slides.yihui.name/gif/cat-flow.gif)
 
-Looking forward to more websites on Rbind!
+Looking forward to more websites under Rbind!
