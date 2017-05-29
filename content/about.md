@@ -22,7 +22,9 @@ We do not really have hard restrictions on what kind of websites we expect to se
     
 In either case, if you do not own a domain name, we can offer a subdomain `*.rbind.io` to you for free as long as it is still available, and just let us know your desired subdomain name in your Github issue.
 
-- If you know how a domain name works, please let us know the DNS record we should set for your `*.rbind.io`, otherwise we recommend you to connect your Github repo with [Netlify](https://www.netlify.com), and we can point the CNAME record of our subdomain to your Netlify subdomain.
+- If you know how a domain name works, please let us know the DNS record we should set for your `*.rbind.io`, otherwise we recommend you to connect your Github repo with [Netlify](https://www.netlify.com) (more details in the [**blogdown** book](https://bookdown.org/yihui/blogdown/netlify.html)), and we can point the CNAME record of our subdomain to your Netlify subdomain. Then you need to configure the custom domain on Netlify by hitting the "Configure domain" button:
+
+    ![Configure domain on Netlify](https://cloud.githubusercontent.com/assets/163582/26532991/e3e5bb40-4453-11e7-9bbb-ad54f5e14d09.png)
 
 - Feel confused? No worries! Just tell us the subdomain you want, and we can actually do everything for you, if you do not mind that we also have admin access to your repo. We promise we will only set up the subdomain name for you and never touch the content of your website, unless you have explicitly asked us for help!
 
