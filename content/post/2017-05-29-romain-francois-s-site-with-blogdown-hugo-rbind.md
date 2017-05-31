@@ -1,8 +1,8 @@
 ---
-title: Romain François’s site with blogdown,hugo,rbind
+title: Romain’s site with blogdown, hugo, rbind
 author: Romain François
 date: '2017-05-29'
-slug: romain-françois-s-site-with-blogdown-hugo-rbind
+slug: romain-francois-s-site-with-blogdown-hugo-rbind
 categories: 
  - Hugo
  - blogdown
