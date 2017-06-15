@@ -32,7 +32,7 @@ Next, edit your `about.md` page, which is in the `content/home` folder. This is 
 
 After doing these 3 things, your site should be shaping up pretty nicely, and then you can start digging deeper into that `content` folder and refining your content.
 
-![](site-screenshot.png)
+![](https://user-images.githubusercontent.com/12160301/27165000-070c5382-5146-11e7-8b50-536bcb4fddff.png)
 
 Finally, my advice to students when they are learning `ggplot2` is to play with the default settings, and I have the same advice for your `blogdown` site. The academic theme offers a way to link to a custom CSS in the `config.toml` file, and this is a nice way to make your site look unique by changing simple elements like colors and fonts. 
 
