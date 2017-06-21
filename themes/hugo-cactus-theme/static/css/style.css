@@ -482,6 +482,10 @@ Post List
 	right: -3px;
 }
 
+.pagination li {
+  display: inline;
+}
+
 /* Archive */
 h1.archive {
 	margin-bottom: 0px;
