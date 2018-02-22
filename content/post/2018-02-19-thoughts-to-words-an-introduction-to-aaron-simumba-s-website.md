@@ -63,6 +63,6 @@ I love the post preview from the blog section. It gives a brief section to previ
 
 Going forward, I will use this website to document my R learning path. And occasionally anything I find remotely interesting for the future me for reference purposes. More like turning my wild thoughts to written engravings. Happy blogging...
 
-I cannot document all the small but significant changes I made. The best option would be to folk the site and have a look at the changes made. For the source to my website, you can find it [here](https://github.com/rbind/asimumba)
+I cannot document all the small but significant changes I made. The best option would be to fork the site and have a look at the changes made. For the source to my website, you can find it [here](https://github.com/rbind/asimumba)
 
 
