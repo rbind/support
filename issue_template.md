@@ -1,9 +1,17 @@
-Please use this template for new rbind.io subdomain requests. Thank you!
+<!--
+Please use this template for new rbind.io subdomain requests.
 
-### Netlify website address
+A volunteer will help you create the subdomain later. We don't really have enough human resources here, so please be serious about your website. We hope to see you really make use of your website in the futre, instead of simply getting a free subdomain and letting it collect dust in a corner. Thank you!
+-->
+
+## Netlify website address
 
 example.netlify.com
 
-### Preferred rbind.io subdomain
+## Preferred rbind.io subdomain
 
 example.rbind.io
+
+### Agreement
+
+I promise I will at least write one blog post or create one web page on my website after I get the rbind.io subdomain.
