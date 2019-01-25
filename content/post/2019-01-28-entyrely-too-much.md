@@ -24,7 +24,8 @@ But the longer I blogged, the more often I wanted to include R code and output
 in my blog posts. While this was possible, it was very painful. Around 2015 I
 was learning about github.com, and starting to use RStudio in my teaching and
 research. When I first heard about blogdown I decided to jump ship, and began
-trying to set up my first academic blog at (atyre2.github.io)[https://atyre2.github.io]. 
+trying to set up my second academic blog at (atyre2.github.io)[https://atyre2.github.io]. 
+
 [^tags]: I could have sworn there used to be tags on my posts. They are in the metadata!
 
 [^booklinks]: They came back mysteriously by waiting for a half hour? 
