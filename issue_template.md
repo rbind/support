@@ -6,7 +6,7 @@ A volunteer will help you create the subdomain later. We don't really have enoug
 
 ## Netlify website address
 
-example.netlify.com
+example.netlify.app
 
 ## Preferred rbind.io subdomain
 
