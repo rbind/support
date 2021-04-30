@@ -1,1 +1,1 @@
-/    domain=:domain    :domain    301!
+/    domain=:domain    https://:domain    301!
