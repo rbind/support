@@ -1,1 +1,1 @@
-/    domain=:domain    https://:domain    301!
+/domain/*    https://:splat:    301!
