@@ -1,1 +1,1 @@
-/domain/xie.test.rbind.io/*    https://yihui.org/:splat    301!
+/    domain=:domain    :domain    301!
